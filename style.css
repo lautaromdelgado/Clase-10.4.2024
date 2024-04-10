@@ -1,0 +1,39 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: burlywood;
+}
+
+.container {
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+    gap: 20px;
+
+    justify-content: center;
+}
+
+.caja {
+    border: 1px solid red;
+    background-color: beige;
+    padding: 15px;
+    margin: 50px;
+}
+
+#caja2 {
+    flex-grow: 2;
+    order: 3;
+}
+
+#caja3 {
+    flex-grow: 3;
+    order: 0;
+}
+
+#caja5 {
+    flex-grow: 1.2;
+    order: -1;
+}
